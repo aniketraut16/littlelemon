@@ -1,0 +1,46 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #4a5d54;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+    font-size: 0.8em;
+}
